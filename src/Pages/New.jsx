@@ -1,8 +1,11 @@
 import React from 'react'
-
+import ColorNewForm from "../Components/ColorNewForm"
 function New() {
   return (
-    <div>New</div>
+    <>
+    <h2>New</h2>
+    <ColorNewForm />
+    </>
   )
 }
 
