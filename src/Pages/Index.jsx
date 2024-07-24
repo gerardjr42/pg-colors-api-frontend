@@ -1,8 +1,12 @@
 import React from 'react'
+import Colors from "../Components/Colors"
 
 function Index() {
   return (
-    <div>Index</div>
+    <>
+    <h2>Index</h2>
+    <Colors />
+    </>
   )
 }
 
