@@ -1,8 +1,11 @@
-import React from 'react'
+import ColorEditForm from "../Components/ColorEditForm";
 
 function Edit() {
   return (
-    <div>Edit</div>
+    <>
+    <h2>Edit</h2>
+    <ColorEditForm />
+    </>
   )
 }
 
